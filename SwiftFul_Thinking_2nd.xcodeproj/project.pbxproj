@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7427CA972ACF09020045680F /* dragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427CA962ACF09020045680F /* dragGesture.swift */; };
+		7427CA992ACF44E60045680F /* scrollViewReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427CA982ACF44E60045680F /* scrollViewReader.swift */; };
+		7427CA9B2ACF5C590045680F /* MultipleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427CA9A2ACF5C590045680F /* MultipleSheet.swift */; };
+		7427CA9D2ACF60FF0045680F /* MultipleSheetTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427CA9C2ACF60FF0045680F /* MultipleSheetTwo.swift */; };
+		7427CA9F2ACF69F90045680F /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427CA9E2ACF69F90045680F /* RatingView.swift */; };
 		746FA9912ACE025400EFF196 /* SwiftFul_Thinking_2ndApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FA9902ACE025400EFF196 /* SwiftFul_Thinking_2ndApp.swift */; };
 		746FA9932ACE025400EFF196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FA9922ACE025400EFF196 /* ContentView.swift */; };
 		746FA9952ACE025500EFF196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746FA9942ACE025500EFF196 /* Assets.xcassets */; };
@@ -14,6 +19,8 @@
 		746FA9A22ACE025600EFF196 /* SwiftFul_Thinking_2ndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FA9A12ACE025600EFF196 /* SwiftFul_Thinking_2ndTests.swift */; };
 		746FA9AC2ACE025600EFF196 /* SwiftFul_Thinking_2ndUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FA9AB2ACE025600EFF196 /* SwiftFul_Thinking_2ndUITests.swift */; };
 		746FA9AE2ACE025600EFF196 /* SwiftFul_Thinking_2ndUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FA9AD2ACE025600EFF196 /* SwiftFul_Thinking_2ndUITestsLaunchTests.swift */; };
+		746FA9BB2ACE028300EFF196 /* LongPressGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FA9BA2ACE028300EFF196 /* LongPressGesture.swift */; };
+		746FA9BD2ACE163700EFF196 /* MagnificationGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FA9BC2ACE163700EFF196 /* MagnificationGesture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7427CA962ACF09020045680F /* dragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dragGesture.swift; sourceTree = "<group>"; };
+		7427CA982ACF44E60045680F /* scrollViewReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollViewReader.swift; sourceTree = "<group>"; };
+		7427CA9A2ACF5C590045680F /* MultipleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheet.swift; sourceTree = "<group>"; };
+		7427CA9C2ACF60FF0045680F /* MultipleSheetTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetTwo.swift; sourceTree = "<group>"; };
+		7427CA9E2ACF69F90045680F /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		746FA98D2ACE025400EFF196 /* SwiftFul_Thinking_2nd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFul_Thinking_2nd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746FA9902ACE025400EFF196 /* SwiftFul_Thinking_2ndApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFul_Thinking_2ndApp.swift; sourceTree = "<group>"; };
 		746FA9922ACE025400EFF196 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,8 @@
 		746FA9A72ACE025600EFF196 /* SwiftFul_Thinking_2ndUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFul_Thinking_2ndUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		746FA9AB2ACE025600EFF196 /* SwiftFul_Thinking_2ndUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFul_Thinking_2ndUITests.swift; sourceTree = "<group>"; };
 		746FA9AD2ACE025600EFF196 /* SwiftFul_Thinking_2ndUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFul_Thinking_2ndUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		746FA9BA2ACE028300EFF196 /* LongPressGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGesture.swift; sourceTree = "<group>"; };
+		746FA9BC2ACE163700EFF196 /* MagnificationGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGesture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +110,13 @@
 			children = (
 				746FA9902ACE025400EFF196 /* SwiftFul_Thinking_2ndApp.swift */,
 				746FA9922ACE025400EFF196 /* ContentView.swift */,
+				746FA9BA2ACE028300EFF196 /* LongPressGesture.swift */,
+				746FA9BC2ACE163700EFF196 /* MagnificationGesture.swift */,
+				7427CA962ACF09020045680F /* dragGesture.swift */,
+				7427CA982ACF44E60045680F /* scrollViewReader.swift */,
+				7427CA9A2ACF5C590045680F /* MultipleSheet.swift */,
+				7427CA9C2ACF60FF0045680F /* MultipleSheetTwo.swift */,
+				7427CA9E2ACF69F90045680F /* RatingView.swift */,
 				746FA9942ACE025500EFF196 /* Assets.xcassets */,
 				746FA9962ACE025500EFF196 /* Preview Content */,
 			);
@@ -257,8 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7427CA9D2ACF60FF0045680F /* MultipleSheetTwo.swift in Sources */,
 				746FA9932ACE025400EFF196 /* ContentView.swift in Sources */,
+				746FA9BD2ACE163700EFF196 /* MagnificationGesture.swift in Sources */,
+				7427CA9F2ACF69F90045680F /* RatingView.swift in Sources */,
+				7427CA992ACF44E60045680F /* scrollViewReader.swift in Sources */,
 				746FA9912ACE025400EFF196 /* SwiftFul_Thinking_2ndApp.swift in Sources */,
+				7427CA972ACF09020045680F /* dragGesture.swift in Sources */,
+				746FA9BB2ACE028300EFF196 /* LongPressGesture.swift in Sources */,
+				7427CA9B2ACF5C590045680F /* MultipleSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
