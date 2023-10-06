@@ -12,6 +12,12 @@
 		7427CA9B2ACF5C590045680F /* MultipleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427CA9A2ACF5C590045680F /* MultipleSheet.swift */; };
 		7427CA9D2ACF60FF0045680F /* MultipleSheetTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427CA9C2ACF60FF0045680F /* MultipleSheetTwo.swift */; };
 		7427CA9F2ACF69F90045680F /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427CA9E2ACF69F90045680F /* RatingView.swift */; };
+		7427CAA12ACF81480045680F /* AddingSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7427CAA02ACF81480045680F /* AddingSounds.swift */; };
+		7427CAA52ACF83690045680F /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7427CAA32ACF83690045680F /* tada.mp3 */; };
+		7427CAA62ACF83690045680F /* bada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7427CAA42ACF83690045680F /* bada.mp3 */; };
+		742E4B512AD0264700E33084 /* VibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E4B502AD0264700E33084 /* VibrationView.swift */; };
+		742E4B532AD02EA900E33084 /* LocalNotificaton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E4B522AD02EA900E33084 /* LocalNotificaton.swift */; };
+		742E4B552AD0430900E33084 /* HashableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E4B542AD0430900E33084 /* HashableView.swift */; };
 		746FA9912ACE025400EFF196 /* SwiftFul_Thinking_2ndApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FA9902ACE025400EFF196 /* SwiftFul_Thinking_2ndApp.swift */; };
 		746FA9932ACE025400EFF196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746FA9922ACE025400EFF196 /* ContentView.swift */; };
 		746FA9952ACE025500EFF196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746FA9942ACE025500EFF196 /* Assets.xcassets */; };
@@ -46,6 +52,12 @@
 		7427CA9A2ACF5C590045680F /* MultipleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheet.swift; sourceTree = "<group>"; };
 		7427CA9C2ACF60FF0045680F /* MultipleSheetTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetTwo.swift; sourceTree = "<group>"; };
 		7427CA9E2ACF69F90045680F /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		7427CAA02ACF81480045680F /* AddingSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingSounds.swift; sourceTree = "<group>"; };
+		7427CAA32ACF83690045680F /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		7427CAA42ACF83690045680F /* bada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bada.mp3; sourceTree = "<group>"; };
+		742E4B502AD0264700E33084 /* VibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrationView.swift; sourceTree = "<group>"; };
+		742E4B522AD02EA900E33084 /* LocalNotificaton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificaton.swift; sourceTree = "<group>"; };
+		742E4B542AD0430900E33084 /* HashableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableView.swift; sourceTree = "<group>"; };
 		746FA98D2ACE025400EFF196 /* SwiftFul_Thinking_2nd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFul_Thinking_2nd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746FA9902ACE025400EFF196 /* SwiftFul_Thinking_2ndApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFul_Thinking_2ndApp.swift; sourceTree = "<group>"; };
 		746FA9922ACE025400EFF196 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7427CAA22ACF834D0045680F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7427CAA42ACF83690045680F /* bada.mp3 */,
+				7427CAA32ACF83690045680F /* tada.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		746FA9842ACE025400EFF196 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +138,11 @@
 				7427CA9A2ACF5C590045680F /* MultipleSheet.swift */,
 				7427CA9C2ACF60FF0045680F /* MultipleSheetTwo.swift */,
 				7427CA9E2ACF69F90045680F /* RatingView.swift */,
+				7427CAA02ACF81480045680F /* AddingSounds.swift */,
+				742E4B502AD0264700E33084 /* VibrationView.swift */,
+				742E4B522AD02EA900E33084 /* LocalNotificaton.swift */,
+				742E4B542AD0430900E33084 /* HashableView.swift */,
+				7427CAA22ACF834D0045680F /* Sounds */,
 				746FA9942ACE025500EFF196 /* Assets.xcassets */,
 				746FA9962ACE025500EFF196 /* Preview Content */,
 			);
@@ -254,6 +280,8 @@
 			files = (
 				746FA9982ACE025500EFF196 /* Preview Assets.xcassets in Resources */,
 				746FA9952ACE025500EFF196 /* Assets.xcassets in Resources */,
+				7427CAA62ACF83690045680F /* bada.mp3 in Resources */,
+				7427CAA52ACF83690045680F /* tada.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,14 +306,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7427CAA12ACF81480045680F /* AddingSounds.swift in Sources */,
 				7427CA9D2ACF60FF0045680F /* MultipleSheetTwo.swift in Sources */,
+				742E4B532AD02EA900E33084 /* LocalNotificaton.swift in Sources */,
 				746FA9932ACE025400EFF196 /* ContentView.swift in Sources */,
 				746FA9BD2ACE163700EFF196 /* MagnificationGesture.swift in Sources */,
 				7427CA9F2ACF69F90045680F /* RatingView.swift in Sources */,
+				742E4B552AD0430900E33084 /* HashableView.swift in Sources */,
 				7427CA992ACF44E60045680F /* scrollViewReader.swift in Sources */,
 				746FA9912ACE025400EFF196 /* SwiftFul_Thinking_2ndApp.swift in Sources */,
 				7427CA972ACF09020045680F /* dragGesture.swift in Sources */,
 				746FA9BB2ACE028300EFF196 /* LongPressGesture.swift in Sources */,
+				742E4B512AD0264700E33084 /* VibrationView.swift in Sources */,
 				7427CA9B2ACF5C590045680F /* MultipleSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

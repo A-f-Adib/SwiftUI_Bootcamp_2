@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftFul_Thinking_2ndApp: App {
     var body: some Scene {
         WindowGroup {
-           scrollViewReader()
+//           scrollViewReader()
+        LocalNotificaton()
         }
     }
 }
