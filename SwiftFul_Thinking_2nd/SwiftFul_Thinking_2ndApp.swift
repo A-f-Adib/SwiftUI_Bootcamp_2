@@ -12,7 +12,15 @@ struct SwiftFul_Thinking_2ndApp: App {
     var body: some Scene {
         WindowGroup {
 //           scrollViewReader()
-        LocalNotificaton()
+//        LocalNotificaton()
+//            CoreDataMvvm()
+//            CoreDataRelation()
+//            CodableProtocol()
+//            JsonEscaping()
+//            TimerUI()
+//            JsonWithCombine()
+//            OneDayTimer()
+            CacheMemory()
         }
     }
 }
